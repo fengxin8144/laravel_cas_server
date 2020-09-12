@@ -1,20 +1,20 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 2016/10/25
  * Time: 16:23
  */
 
-namespace Leo108\CAS\Models;
+namespace fengxin8144\CAS\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
-use Leo108\CAS\Contracts\Models\UserModel;
+use fengxin8144\CAS\Contracts\Models\UserModel;
 
 /**
  * Class PGTicket
- * @package Leo108\CAS\Models
+ * @package fengxin8144\CAS\Models
  *
  * @property integer   $id
  * @property string    $ticket

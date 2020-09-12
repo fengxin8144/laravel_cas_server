@@ -6,18 +6,18 @@
  * Time: 14:50
  */
 
-namespace Leo108\CAS\Http\Controllers;
+namespace fengxin8144\CAS\Http\Controllers;
 
-use Leo108\CAS\Contracts\Interactions\UserLogin;
-use Leo108\CAS\Contracts\Models\UserModel;
-use Leo108\CAS\Events\CasUserLoginEvent;
-use Leo108\CAS\Events\CasUserLogoutEvent;
-use Leo108\CAS\Exceptions\CAS\CasException;
+use fengxin8144\CAS\Contracts\Interactions\UserLogin;
+use fengxin8144\CAS\Contracts\Models\UserModel;
+use fengxin8144\CAS\Events\CasUserLoginEvent;
+use fengxin8144\CAS\Events\CasUserLogoutEvent;
+use fengxin8144\CAS\Exceptions\CAS\CasException;
 use Illuminate\Http\Request;
-use Leo108\CAS\Repositories\PGTicketRepository;
-use Leo108\CAS\Repositories\ServiceRepository;
-use Leo108\CAS\Repositories\TicketRepository;
-use function Leo108\CAS\cas_route;
+use fengxin8144\CAS\Repositories\PGTicketRepository;
+use fengxin8144\CAS\Repositories\ServiceRepository;
+use fengxin8144\CAS\Repositories\TicketRepository;
+use function fengxin8144\CAS\cas_route;
 
 class SecurityController extends Controller
 {

@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 2016/10/25
  * Time: 15:16
  */
 
-namespace Leo108\CAS\Responses;
+namespace fengxin8144\CAS\Responses;
 
 use Symfony\Component\HttpFoundation\Response;
 

@@ -1,14 +1,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 2016/10/23
  * Time: 16:25
  */
 
-namespace Leo108\CAS\Responses;
+namespace fengxin8144\CAS\Responses;
 
-use Leo108\CAS\Contracts\Responses\AuthenticationFailureResponse;
+use fengxin8144\CAS\Contracts\Responses\AuthenticationFailureResponse;
 
 class XmlAuthenticationFailureResponse extends BaseXmlResponse implements AuthenticationFailureResponse
 {

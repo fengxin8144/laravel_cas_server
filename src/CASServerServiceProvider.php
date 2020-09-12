@@ -6,13 +6,13 @@
  * Time: 17:49
  */
 
-namespace Leo108\CAS;
+namespace fengxin8144\CAS;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class CASServerServiceProvider
- * @package Leo108\CAS
+ * @package fengxin8144\CAS
  */
 class CASServerServiceProvider extends ServiceProvider
 {

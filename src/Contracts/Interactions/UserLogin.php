@@ -1,15 +1,15 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 16/9/17
  * Time: 21:35
  */
 
-namespace Leo108\CAS\Contracts\Interactions;
+namespace fengxin8144\CAS\Contracts\Interactions;
 
 use Illuminate\Http\Request;
-use Leo108\CAS\Contracts\Models\UserModel;
+use fengxin8144\CAS\Contracts\Models\UserModel;
 use Symfony\Component\HttpFoundation\Response;
 
 interface UserLogin

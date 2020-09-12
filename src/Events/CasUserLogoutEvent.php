@@ -1,16 +1,16 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 16/9/18
  * Time: 11:28
  */
 
-namespace Leo108\CAS\Events;
+namespace fengxin8144\CAS\Events;
 
 use Illuminate\Http\Request;
 use Illuminate\Queue\SerializesModels;
-use Leo108\CAS\Contracts\Models\UserModel;
+use fengxin8144\CAS\Contracts\Models\UserModel;
 
 class CasUserLogoutEvent extends Event
 {

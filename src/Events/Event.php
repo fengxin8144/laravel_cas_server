@@ -1,6 +1,6 @@
 <?php
 
-namespace Leo108\CAS\Events;
+namespace fengxin8144\CAS\Events;
 
 abstract class Event
 {

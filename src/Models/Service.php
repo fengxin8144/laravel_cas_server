@@ -6,13 +6,13 @@
  * Time: 15:06
  */
 
-namespace Leo108\CAS\Models;
+namespace fengxin8144\CAS\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Service
- * @package Leo108\CAS\Models
+ * @package fengxin8144\CAS\Models
  *
  * @property string  $name
  * @property boolean $allow_proxy

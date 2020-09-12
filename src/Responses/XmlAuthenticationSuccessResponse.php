@@ -1,14 +1,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 2016/10/23
  * Time: 16:01
  */
 
-namespace Leo108\CAS\Responses;
+namespace fengxin8144\CAS\Responses;
 
-use Leo108\CAS\Contracts\Responses\AuthenticationSuccessResponse;
+use fengxin8144\CAS\Contracts\Responses\AuthenticationSuccessResponse;
 use SimpleXMLElement;
 
 class XmlAuthenticationSuccessResponse extends BaseXmlResponse implements AuthenticationSuccessResponse

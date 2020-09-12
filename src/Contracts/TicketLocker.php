@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 16/9/20
  * Time: 12:40
  */
 
-namespace Leo108\CAS\Contracts;
+namespace fengxin8144\CAS\Contracts;
 
 interface TicketLocker
 {

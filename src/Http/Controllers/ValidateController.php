@@ -6,26 +6,26 @@
  * Time: 14:52
  */
 
-namespace Leo108\CAS\Http\Controllers;
+namespace fengxin8144\CAS\Http\Controllers;
 
 use Illuminate\Support\Str;
-use Leo108\CAS\Contracts\TicketLocker;
-use Leo108\CAS\Repositories\PGTicketRepository;
-use Leo108\CAS\Repositories\TicketRepository;
-use Leo108\CAS\Exceptions\CAS\CasException;
-use Leo108\CAS\Models\Ticket;
+use fengxin8144\CAS\Contracts\TicketLocker;
+use fengxin8144\CAS\Repositories\PGTicketRepository;
+use fengxin8144\CAS\Repositories\TicketRepository;
+use fengxin8144\CAS\Exceptions\CAS\CasException;
+use fengxin8144\CAS\Models\Ticket;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Leo108\CAS\Responses\JsonAuthenticationFailureResponse;
-use Leo108\CAS\Responses\JsonAuthenticationSuccessResponse;
-use Leo108\CAS\Responses\JsonProxyFailureResponse;
-use Leo108\CAS\Responses\JsonProxySuccessResponse;
-use Leo108\CAS\Responses\XmlAuthenticationFailureResponse;
-use Leo108\CAS\Responses\XmlAuthenticationSuccessResponse;
-use Leo108\CAS\Responses\XmlProxyFailureResponse;
-use Leo108\CAS\Responses\XmlProxySuccessResponse;
-use Leo108\CAS\Services\PGTCaller;
-use Leo108\CAS\Services\TicketGenerator;
+use fengxin8144\CAS\Responses\JsonAuthenticationFailureResponse;
+use fengxin8144\CAS\Responses\JsonAuthenticationSuccessResponse;
+use fengxin8144\CAS\Responses\JsonProxyFailureResponse;
+use fengxin8144\CAS\Responses\JsonProxySuccessResponse;
+use fengxin8144\CAS\Responses\XmlAuthenticationFailureResponse;
+use fengxin8144\CAS\Responses\XmlAuthenticationSuccessResponse;
+use fengxin8144\CAS\Responses\XmlProxyFailureResponse;
+use fengxin8144\CAS\Responses\XmlProxySuccessResponse;
+use fengxin8144\CAS\Services\PGTCaller;
+use fengxin8144\CAS\Services\TicketGenerator;
 use SimpleXMLElement;
 
 class ValidateController extends Controller

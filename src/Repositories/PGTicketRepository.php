@@ -1,18 +1,18 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 2016/10/25
  * Time: 16:34
  */
 
-namespace Leo108\CAS\Repositories;
+namespace fengxin8144\CAS\Repositories;
 
 use Carbon\Carbon;
-use Leo108\CAS\Contracts\Models\UserModel;
-use Leo108\CAS\Exceptions\CAS\CasException;
-use Leo108\CAS\Models\PGTicket;
-use Leo108\CAS\Services\TicketGenerator;
+use fengxin8144\CAS\Contracts\Models\UserModel;
+use fengxin8144\CAS\Exceptions\CAS\CasException;
+use fengxin8144\CAS\Models\PGTicket;
+use fengxin8144\CAS\Services\TicketGenerator;
 
 class PGTicketRepository
 {

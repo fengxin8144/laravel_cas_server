@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 2016/10/26
  * Time: 11:01
  */
 
-namespace Leo108\CAS\Services;
+namespace fengxin8144\CAS\Services;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Log;

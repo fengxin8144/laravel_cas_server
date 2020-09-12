@@ -1,14 +1,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 2016/10/23
  * Time: 15:57
  */
 
-namespace Leo108\CAS\Responses;
+namespace fengxin8144\CAS\Responses;
 
-use Leo108\CAS\Contracts\Responses\AuthenticationSuccessResponse;
+use fengxin8144\CAS\Contracts\Responses\AuthenticationSuccessResponse;
 
 class JsonAuthenticationSuccessResponse extends BaseJsonResponse implements AuthenticationSuccessResponse
 {

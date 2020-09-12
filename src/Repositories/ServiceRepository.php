@@ -1,15 +1,15 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 16/9/17
  * Time: 20:13
  */
 
-namespace Leo108\CAS\Repositories;
+namespace fengxin8144\CAS\Repositories;
 
-use Leo108\CAS\Models\Service;
-use Leo108\CAS\Models\ServiceHost;
+use fengxin8144\CAS\Models\Service;
+use fengxin8144\CAS\Models\ServiceHost;
 
 class ServiceRepository
 {

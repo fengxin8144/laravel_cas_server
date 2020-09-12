@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 2016/9/27
  * Time: 07:26
  */
 
-namespace Leo108\CAS\Contracts\Models;
+namespace fengxin8144\CAS\Contracts\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

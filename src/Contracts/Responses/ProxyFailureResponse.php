@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 2016/10/25
  * Time: 17:48
  */
 
-namespace Leo108\CAS\Contracts\Responses;
+namespace fengxin8144\CAS\Contracts\Responses;
 
 interface ProxyFailureResponse extends BaseResponse
 {

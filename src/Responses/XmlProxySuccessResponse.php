@@ -1,14 +1,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: fengxin8144
  * Date: 2016/10/25
  * Time: 18:19
  */
 
-namespace Leo108\CAS\Responses;
+namespace fengxin8144\CAS\Responses;
 
-use Leo108\CAS\Contracts\Responses\ProxySuccessResponse;
+use fengxin8144\CAS\Contracts\Responses\ProxySuccessResponse;
 use SimpleXMLElement;
 
 class XmlProxySuccessResponse extends BaseXmlResponse implements ProxySuccessResponse
