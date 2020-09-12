@@ -1,6 +1,5 @@
 # CAS Server for Laravel
 ### copy to fengxin8144/laravel_cas_server
-laravel_cas_server is a Laravel package that implements the server part of [CAS protocol](https://apereo.github.io/cas/4.2.x/protocol/CAS-Protocol-Specification.html) v1/v2/v3.
 
 
 
