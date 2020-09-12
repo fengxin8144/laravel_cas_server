@@ -2,6 +2,8 @@
     "name": "fengxin8144/laravel_cas_server",
     "description": "A laravel package provides CAS server implementation , copy to leo108/laravel_cas_server",
     "type": "library",
+    "license": "Apache-2.0",
+
     "require": {
         "php": ">=7.0",
         "ext-dom": "*",
