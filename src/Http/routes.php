@@ -16,7 +16,7 @@ Route::group(
         $p    = config('cas.router.name_prefix');
         Route::get('login', 'SecurityController@showLogin')->name($p.'login.get');
         Route::post('login', 'SecurityController@login')->name($p.'login.post');
-        Route::get('logout', 'SecurityController@logout')->name($p.'logout')->middleware($auth);
+        Route::get('logout', 'SecurityController@logout')->name($p.'logout');
         Route::any('validate', 'ValidateController@v1ValidateAction')->name($p.'v1.validate');
         Route::any('serviceValidate', 'ValidateController@v2ServiceValidateAction')->name($p.'v2.validate.service');
         Route::any('proxyValidate', 'ValidateController@v2ProxyValidateAction')->name($p.'v2.validate.proxy');
